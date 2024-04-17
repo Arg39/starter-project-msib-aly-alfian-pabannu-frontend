@@ -4,6 +4,6 @@ export default function page({params} : {
     params: {productId: string}
 }) {
   return (
-    <div>detail product {params.productId}</div>
+    <div> product {params.productId}</div>
   )
 }
